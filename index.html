@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/bootstrap.css" />
+		<title></title>
+		<style>
+			#pic{
+				width: 900px;
+				margin: 0 auto;
+				}
+			.nav .active{
+				font-size: 30px;
+				border-left: 2px solid #A0BF7C;
+			}
+			.topDis{
+				margin-top: 50px;
+			}
+			#subNav li a{
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			.tc{
+				text-align:center;
+				background: #FFFAE8;
+			}
+		</style>
+	</head>
+	<body style="background: #E1EED2;" data-spy="scroll" data-target="#subNav">	
+		<!--导航条-->
+		<nav class="navbar navbar-default navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					 <a class="navbar-brand" href="#">
+				        <img alt="Brand" src="img/1.jpg" style="width: 30px;">
+				     </a>
+				</div>
+				<p class="navbar-text"><span class="glyphicon glyphicon-heart"></span> 尼古拉斯·D·兔子</p>				
+				<!--navbar-left表示内容以右边对齐-->
+				<p class="navbar-text navbar-right">金毛妹妹</p>
+			</div>
+		</nav>
+		
+		<!--轮播图-->
+		<div class="container topDis .topDis">
+			<div id="pic" class="carousel slide" data-interval="2000" data-ride="carousel">
+				<!--小圆点-->
+				<ol class="carousel-indicators">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+				<!--轮播图的图片-->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/10.gif" height="500px">
+						<div class="carousel-caption">
+							<h3>爱睡觉的兔兔</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/11.gif"/>
+						<div class="carousel-caption">
+							<h3>自拍的兔兔</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/12.gif"/>
+						<div class="carousel-caption">
+							<h3>发呆的兔兔</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/13.gif"/>
+						<div class="carousel-caption">
+							<h3>兔子与豆包</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--巨幕-->
+		<div class="jumbotron topDis"  style="background: #D1494D;">
+			<div class="container">
+				<h2>大家好，我是可爱的兔子</h2>
+				<ul style="font: 16px/24px '微软雅黑';">
+					<li>性别：女孩子</li>
+					<li>生日：2015年9月19日</li>
+					<li>体重：20kg</li>
+					<li>爱好：吃饭、睡觉、玩球球、望风景</li>
+				</ul>
+			</div>
+		</div>
+		<!--缩略图-->
+		<div class="container">
+			<div class="col-lg-4">
+					<div class="thumbnail">
+						<a href="###">
+							<img src="img/huazuo1.jpg"/>
+						</a>
+						<div class="caption">
+							<h3>雪纳瑞</h3>
+							<p>一只超级认真的汪，也是本宝宝最满意的画作</p>
+							<p><a href="img/huazuo1.jpg" class="btn btn-primary">查看作品</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="thumbnail">
+						<a href="###">
+							<img src="img/huazuo2.jpg"/>
+						</a>
+						<div class="caption">
+							<h3>金大毛</h3>
+							<p>美丽害羞的金大毛</p>
+							<p><a href="img/huazuo2.jpg" class="btn btn-primary">查看作品</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="thumbnail">
+						<a href="###">
+							<img src="img/huazuo3.jpg"/>
+						</a>
+						<div class="caption">
+							<h3>抽象派金毛</h3>
+							<p>大家好，我是一个表情包</p>
+							<p><a href="img/huazuo3.jpg" class="btn btn-primary">查看作品</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container topDis">
+			<div class="row">
+				<div class="col-lg-12 bg-danger">
+					<button type="button" class="btn btn-danger btn-block" disabled>由于是宝宝自己的网站，请允许宝宝自恋滴将自己的画作放在了上面，谢谢大家～</button>
+				</div>
+			</div>
+		</div>
+		
+		<!--滚动监听-->
+		<div class="container" id="box">
+			<div class="row topDis">
+				<div class="col-lg-8" style="border-right: 1px solid #F2F2F2;">
+					<ul class="list-group" id="jiankangshenghuobox">
+						<li class="list-group-item list-group-item-danger">
+							<h3 class="list-group-item-heading" id="jiankangshenghuo">兔子的健康生活</h4>
+						</li>
+						<li class="list-group-item">
+							<h4 class="list-group-item-heading">兔子的疫苗</h4>
+							<p class="list-group-item-text">2017年2月5日第一针安肤多</p>
+							<p class="list-group-item-text">2017年2月12日第二针安肤多</p>
+							<p class="list-group-item-text">2017年2月18日第三针安肤多</p>
+							<p class="list-group-item-text">2016年12月25日，狂犬疫苗</p>
+						</li>
+						<li class="list-group-item">
+							<h4 class="list-group-item-heading">兔子的体外驱虫</h4>
+							<p class="list-group-item-text">2017年4月27日，福来恩体外驱虫</p>
+						</li>
+						<li class="list-group-item">
+							<h4 class="list-group-item-heading">兔子的体内驱虫</h4>
+							<p class="list-group-item-text">2017年4月26日，拜耳驱虫药两颗</p>
+						</li>
+						<li class="list-group-item">
+							<h4 class="list-group-item-heading">兔子的姨妈</h4>
+							<p class="list-group-item-text">2017年3月8日，第二次姨妈</p>
+						</li>
+					</ul>
+					<div class="row topDis" id="kaishi">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".kaishi" class="img-thumbnail" src="img/kaishi.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">兔子的开始</h4>
+								<p>这是与兔兔的初见,图片里的兔兔在吹毛毛，从这一天起，兔子就正式成为我们家的一员了</p>	
+								<p>不要问我为啥要叫兔子，因为我也忘了是怎么想到这个名字的，总之是在买兔子之前就想好的</p>
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="huijia">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img data-toggle="modal" data-target=".huijia" class="img-thumbnail" src="img/huijia.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">回家</h4>
+								<p>已经安顿了的兔子</p>	
+								<p>像个没睡醒的小毛球</p>
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="hezhao">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".hezhao" class="img-thumbnail" src="img/hezhao.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">第一张合照</h4>
+								<p>没有镜头感的兔子，看来要培养一下</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="gouwo">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".gouwo" class="img-thumbnail" src="img/gouwo.jpg" width="280"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">狗窝</h4>
+								<p>给兔子买的第一个狗窝，如今已经阵亡了，后来我又给兔子买了其他的狗窝，最后都阵亡了，所以，兔子现在专业睡地板了</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="nuanjiao">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".nuanjiao" class="img-thumbnail" src="img/nuanjiao.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">暖脚</h4>
+								<p>兔子很小就特别粘人，喜欢和主人在一起，但是又不喜欢打扰，就在脚下安静的陪伴</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="hua">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".hua" class="img-thumbnail" src="img/hua.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">兔子与花</h4>
+								<p>心有猛虎细嗅蔷薇</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="peishui">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".peishui" class="img-thumbnail" src="img/shuijiao.jpg" width="550"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">陪睡</h4>
+								<p>兔子小的时候是不允许进卧室的，但是小兔子始终不能理解为什么晚上我们就要排斥她，让她在外面睡，所以兔宝宝自己把窝拖到卧室的门口，然后才能安心的睡去，这是我们第一次深切感受到来自的兔子的依赖。其实，这个窝放在这是有点挡路的。</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="haipa">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".haipa" class="img-thumbnail" src="img/haipa.jpg" width="350"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">害怕</h4>
+								<p>小兔子的胆子真的是好小，最害怕两样东西，气球和快速移动的电动车。后来兔子就成长了，连吸尘器都不放在眼里了。怀念那段可以套路兔子的岁月。</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="zuichan">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".zuichan" class="img-thumbnail" src="img/zuichan.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">嘴馋</h4>
+								<p>你们在吃啥，能不能给汪尝一下？</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="xiaopengyou">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".xiaopengyou" class="img-thumbnail" src="img/xiaopengyou.jpg" width="400"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">小朋友</h4>
+								<p>哈哈，这位热情的小朋友叫旺达，是一个帅气的boy，只可惜这个栅栏把两侧的区域彻底隔开了，我们没有办法过去和这位热情的小朋友玩耍，不过后来通过狗群还是正式认识啦。</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="doubao">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".doubao" class="img-thumbnail" src="img/doubao.jpg" width="800"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">豆包</h4>
+								<p>豆包的父母因为有事情，就把豆包寄养在我家一个星期，这个憨厚的大狗狗和兔子几乎是一天出生的，但是人家已经65斤了，两个小姐妹玩得非常好。这之后我们也因为有事将兔子寄养在豆包家过年，年后去接兔子的时候，豆包十分不舍，扒着楼下小区的铁门张望，给人十分忠义的感觉，我们已经习惯了和兔子玩套路，突然有这么实诚的汪，感觉很感动。</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="kandianshi">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".kandianshi" class="img-thumbnail" src="img/kandianshi.jpg" width="280"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">看电视</h4>
+								<p>哈哈，机智的朋友们是不是已经看出电视里放的是微微一笑很倾城。是的，这是一只少女兔，不过少女兔你挡着我的电视了！</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="shengri">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".shengri" class="img-thumbnail" src="img/shengri.jpg" width="250"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">一岁生日</h4>
+								<p>兔子一岁的生日，被爸爸强吻了。</p>	
+								<p>大家不用纠结狗狗不能吃巧克力蛋糕的问题啦，实际上蛋糕被本宝宝吃了，嘻嘻。不过晚餐给兔子加了罐头的</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="zhengjianzhao">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".zhengjianzhao" class="img-thumbnail" src="img/zhengjianzhao.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">证件照</h4>
+								<p>汪生最严肃正式的一张照片啦</p>	
+								<p>办狗证的小哥和我说了好多拍照片的要求，结果拍了一下午。。。。。。</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="jixushui">
+						<div class="media topDis">
+							<a href="#####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".jixushui" class="img-thumbnail" src="img/jixushui.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">继续睡</h4>
+								<p>汪自己找了个枕头，不开心的时候还可以咬咬纸盒子，好方便。</p>	
+							</div>
+						</div>
+					</div>
+					<div class="row topDis" id="zaihezhao">
+						<div class="media topDis">
+							<a href="####" class="media-left media-middle">
+								<img  data-toggle="modal" data-target=".zaihezhao" class="img-thumbnail" src="img/zaihehzao.jpg" width="200"/>
+							</a>
+							<div class="media-body leftDis">
+								<h4 class="media-heading">再合照</h4>
+								<p>几个人明显都胖了，一个镜头都放不下了，喂，都把头挤一挤～</p>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 visible-lg-block">
+					<div id="subNav" class="navbar-collapse">
+						<ul class="nav">
+							<li>
+								<a href="#jiankangshenghuo" class="bold">兔子的健康生活</a>
+							</li>
+							<li>
+								<a href="#kaishi" class="bold">兔子的开始</a>
+							</li>
+							<li>
+								<a href="#huijia" class="bold">回家</a>
+							</li>
+							<li>
+								<a href="#hezhao" class="bold">第一张合照</a>
+							</li>
+							<li>
+								<a href="#gouwo" class="bold">狗窝</a>
+							</li>
+							<li>
+								<a href="#nuanjiao" class="bold">暖脚</a>
+							</li>
+							<li>
+								<a href="#hua" class="bold">兔子与花</a>
+							</li>
+							<li>
+								<a href="#peishui" class="bold">陪睡</a>
+							</li>
+							<li>
+								<a href="#haipa" class="bold">害怕</a>
+							</li>
+							<li>
+								<a href="#zuichan" class="bold">嘴馋</a>
+							</li>
+							<li>
+								<a href="#xiaopengyou" class="bold">小朋友</a>
+							</li>
+							<li>
+								<a href="#doubao" class="bold">豆包</a>
+							</li>
+							<li>
+								<a href="#kandianshi" class="bold">看电视</a>
+							</li>
+							<li>
+								<a href="#shengri" class="bold">一岁生日</a>
+							</li>
+							<li>
+								<a href="#zhengjianzhao" class="bold">证件照</a>
+							</li>
+							<li>
+								<a href="#jixushui" class="bold">继续睡</a>
+							</li>
+							<li>
+								<a href="#zaihezhao" class="bold">再合照</a>
+							</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--弹出层-->
+		<div class="modal fade kaishi">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>兔子的开始</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/kaishi.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade huijia">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>回家</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/huijia.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade hezhao">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>第一张合照</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/hezhao.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade gouwo">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>狗窝</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/gouwo.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade nuanjiao">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>暖脚</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/nuanjiao.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade hua">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>兔子与花</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/hua.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade peishui">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>陪睡</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/shuijiao.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade haipa">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>害怕</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/haipa.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade zuichan">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>嘴馋</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/zuichan.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade xiaopengyou">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>小朋友</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/xiaopengyou.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade doubao">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>豆包</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/doubao.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade kandianshi">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>看电视</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/kandianshi.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade shengri">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>一岁生日</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/shengri.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade zhengjianzhao">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>证件照</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/zhengjianzhao.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade jixushui">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>继续睡</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/jixushui.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade zaihezhao">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4>再合照</h4>
+					</div>
+					<div class="modal-body tc">
+						<img src="img/zaihehzao.jpg" width="600px"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部导航条-->
+		<nav class="navbar navbar-default navbar-inverse topDis" style="margin-bottom: 0!important;">
+			<div class="container">
+				<p class="navbar-text"><span class="glyphicon glyphicon-heart"></span> 狗狗的一生如此短暂，希望各位铲屎官千万不要放弃他们，如果连养一个活生生的小生命都不能坚持，我们还能坚持什么伟大的事业呢？</p>				
+			</div>
+		</nav>
+		<audio src="ss.mp3" autoplay loop></audio>
+		<script src="js/jquery-2.1.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>
+			$(document).scroll(function(){
+				var dis=$('#jiankangshenghuobox').offset().top;
+				var scrollDis=$(document).scrollTop();
+				if(dis<scrollDis||dis==scrollDis){
+					$("#subNav").css({position:"fixed",'top':0});  
+				}else{
+					$("#subNav").css({position:"none"});  
+				}
+			});
+		</script>
+	</body>
+</html>
